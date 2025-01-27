@@ -1,11 +1,9 @@
 <?php
 /*
 Plugin Name: Multiple Secondary Passwords with Logging & Filters
-Plugin URI: https://example.com
-Description: Unlock a password-protected post using the main WP password or multiple secondary passwords, rely on WordPress's default 'wp-postpass_' cookie, and log each access attempt with date/time/IP/geolocation. Now featuring a separate logs table with filters.
-Version: 2.0
-Author: Your Name
-License: GPL2
+Description: Unlock a password-protected post using the main WP password or multiple secondary passwords, rely on WordPress's default 'wp-postpass_' cookie, and log each access attempt with date/time/IP/geolocation.
+Version: 1
+Author: Adam Chiaravalle @ ACWebDev, LLC.
 */
 
 if (!defined('ABSPATH')) {
