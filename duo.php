@@ -15,8 +15,8 @@ if (!defined('ABSPATH')) {
  */
 function epwc_add_admin_menu() {
 	add_menu_page(
-		'Multi Passwords & Logs',
-		'Multi Passwords',
+		'AC - Multi Passwords & Logs',
+		'AC - Multi Passwords',
 		'manage_options',
 		'epwc-secondary-passwords',
 		'epwc_render_admin_page',
